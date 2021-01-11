@@ -74,6 +74,16 @@
         print("Keluar")
         break
         
+- Seperti inilah output codenya : 
+
+![3](https://user-images.githubusercontent.com/73066008/104183273-507fe380-5444-11eb-9ff2-69f5967a102d.png)
+
+- Penjelasan :
+
+Pada coding file daftar_nilai.py kita sudah membuat menu tambah data, lihat data, hapus data, ubah data dan keluar
+
+
+        
 ## Input code untuk file input_nilai.py
 
     from data import data
@@ -82,7 +92,7 @@
     while True:
         print("")
         c =input("(T)ambah : ")
-        if c.lower() == 't':
+        if c.data() == 't':
             print("=======Tambah Data=======")
             nama = input("Nama                :  ")
             nim = input("Nim                 :  ")
@@ -94,6 +104,10 @@
 
             break
             
+ - Seperti inilah output codenya :
+ 
+ ![4](https://user-images.githubusercontent.com/73066008/104186114-81faae00-5448-11eb-844c-be7a0165bfdd.png)
+            
  ## Input code untuk file view_nilai.py
  
     from data import data
@@ -103,7 +117,7 @@
     while True:
         print("")
         c =input("(L)lihat, : ")
-
+    if data():
         print("=======Daftar Nilai Mahasiswa=======")
         print("================================================================================================")
         print(" |NO   |     NAMA      |    NIM    |     TUGAS    |     UTS     |       UAS    |    AKHIR     | ")
@@ -116,3 +130,10 @@
                                                                                                 x[1][2], x[1][3],
                                                                                                 x[1][4], i))
             print("============================================================================================")
+            
+ - Seperti inilah output codenya :
+ 
+ ![5](https://user-images.githubusercontent.com/73066008/104186557-2977e080-5449-11eb-9381-856186746af9.png)
+
+## Mungkin seperti itu yang bisa saya jelaskan, mohon maaf jika ada kesalahan karena saya masih dalam tahap pembelajaran. Tetap semangat, sekian dari saya dan terima kasih.
+## Wassalamu'alaikum Warahmatullahi Wabarakatuh.
